@@ -1,15 +1,10 @@
 ﻿:root{
     --black:#252a34;
-    --blue:#08d9d6;
     --white:#eaeaea;
     --blueB:#062699;
 }
 
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .gray{
 	color:gray;
 }
@@ -53,54 +48,6 @@ body{
     font-size: 30px;
     color:var(--black);
 }
-
-/*--------------------------------------------------------------
-# Top Bar
---------------------------------------------------------------*/
-#topbar {
-    background: #39312f;
-    font-size: 14px;
-    padding: 0;
-    color: rgba(255, 255, 255, 0.8);
-  }
-  
-#topbar .contact-info ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-  }
-  
-  #topbar .contact-info li {
-    display: inline-block;
-    padding: 8px 0;
-  }
-  
-  #topbar .contact-info li + li {
-    margin-left: 18px;
-  }
-  
-  #topbar .contact-info a {
-    color: rgba(255, 255, 255, 0.8);
-    transition: 0.3s;
-  }
-  
-  #topbar .contact-info a:hover {
-    color: #fff;
-  }
-  
-  #topbar .contact-info i {
-    color: #fff;
-    padding-right: 4px;
-  }
-  
-  #topbar .cta a {
-    color: #fff;
-    padding: 8px 20px;
-    display: inline-block;
-    transition: 0.3s;
-  }
-
-
 /** Menu de Navegacion **/
 #header{
     position: relative;
@@ -280,6 +227,10 @@ body{
         width: 130px;
         font-size: 20px;
     } 
+    .img-header .welcome p{
+        font-size: 17px;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 590px) {
@@ -294,6 +245,7 @@ body{
 }
 .img-header .welcome p{
     font-size: 17px;
+    text-align: center;
 }
 .img-header .welcome > button {
     width: 100px;
